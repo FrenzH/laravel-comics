@@ -24,5 +24,5 @@
     </div>
 
 
-    <div class="bg-blue"></div>
+
 @endsection

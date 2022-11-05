@@ -68,3 +68,45 @@ a {
   width: 100%;
 }
 
+.bg-footer {
+  background-size: cover;
+}
+
+.links-container {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  padding-top: 40px;
+  padding-bottom: 55px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: 100%;
+}
+
+a:hover {
+  transform: scale(1.02);
+  filter: brightness(170%);
+}
+
+.links-container h3 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.links-container .links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links-container .links a {
+  margin: 4px 0px;
+  text-decoration: none;
+  color: #696b73;
+  font-size: 0.8rem;
+}
+
+.margin-top-fix {
+  margin-top: 15px;
+}
+
