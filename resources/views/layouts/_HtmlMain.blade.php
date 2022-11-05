@@ -11,7 +11,7 @@
 
 <body>
     @include('partials._header')
-
+    @include('partials._banner')
     @yield('main')
 
     @include('partials._footer')
